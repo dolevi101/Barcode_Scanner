@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="references\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CnetSDK.Barcode.Scanner.Trial">
+      <HintPath>..\..\..\..\Documents\מדמח\שנה ג\סמסטר ב\סדנה באינטרנט של הדברים\CnetSDK\C#\CnetSDK.Barcode.Scanner.Trial.Demo\bin\CnetSDK.Barcode.Scanner.Trial.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCompat.System.Drawing">
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.DebuggerVisualizers.VS2017">
+      <HintPath>..\..\..\..\..\..\Emgu\emgucv-windesktop 3.4.1.2976\bin\Emgu.CV.DebuggerVisualizers.VS2017.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\..\..\..\..\..\Emgu\emgucv-windesktop 3.4.1.2976\bin\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI.GL">
+      <HintPath>..\..\..\..\..\..\Emgu\emgucv-windesktop 3.4.1.2976\bin\Emgu.CV.UI.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI.resources">
+      <HintPath>..\..\DLY_ .NET test\DLY_ .NET test\bin\zh-CN\Emgu.CV.UI.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.World">
+      <HintPath>..\..\..\..\..\..\Emgu\emgucv-windesktop 3.4.1.2976\bin\Emgu.CV.World.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MSXML2">
+      <HintPath>..\..\DLY_ .NET test\DLY_ .NET test\bin\Interop.MSXML2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\..\DLY_ .NET test\DLY_ .NET test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers">
+      <HintPath>..\..\DLY_ .NET test\DLY_ .NET test\bin\Microsoft.VisualStudio.DebuggerVisualizers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\x86_system.data_b77a5c561934e089_4.0.15680.130_none_277a3eecf9811df5\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>references\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\..\..\..\..\Emgu\emgucv-windesktop 3.4.1.2976\bin\ZedGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph.resources">
+      <HintPath>..\..\DLY_ .NET test\DLY_ .NET test\bin\zh-CN\ZedGraph.resources.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="CoreCompat.System.Drawing %281%29">
+      <HintPath>references\CoreCompat.System.Drawing (1).dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
